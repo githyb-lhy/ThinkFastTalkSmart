@@ -17,6 +17,12 @@
 | Yes, and... | 인정 → 덧붙이기 |
 
 ## 실행
+
+### Windows: 더블클릭 실행
+`run.bat` 을 더블클릭하세요. 처음 한 번은 가상환경 생성과 패키지 설치를 자동으로 하고, 이후에는 바로 브라우저에서 앱이 열립니다.
+앱을 끄려면 검은 콘솔 창을 닫으면 됩니다. (Python 3.10+ 필요)
+
+### 직접 실행
 ```bash
 pip install -r requirements.txt
 cp .streamlit/secrets.toml.example .streamlit/secrets.toml   # API 키 입력
